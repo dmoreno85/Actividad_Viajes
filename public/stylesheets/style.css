@@ -1,0 +1,18 @@
+.imgPrincipal{
+    width: 100%;
+    position: relative;
+    
+}
+.logo img{
+
+    width: 100%;
+    height: auto;
+}
+.logo{
+    
+    position: absolute;
+    width: 10%;
+    height: 14%;
+    left: 3%;
+    top: -2%;
+    font-size-adjust:0.5em;}
