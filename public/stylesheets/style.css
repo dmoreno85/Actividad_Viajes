@@ -1,18 +1,126 @@
-.imgPrincipal{
+*{
+    text-decoration: none;
+}
+html{
+    height: 100%;
+    justify-content: center;
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+}
+body{
+    height: 100%;
     width: 100%;
-    position: relative;
+}
+header{
+    
+    background-image:url("../images/nathan-anderson-316188-unsplash.jpg");
+    height:100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+
+}
+#navbar{
+    width: 100%;
+    justify-content: space-between;
+    align-items: flex-start;
+    display: flex;
+    padding: 10px;
+}
+#navHeader{
+  color:white;
+    display: flex;
+
+}
+#navHeader>ul>li a{
+    color:white;
+    text-decoration: none;
+
+}
+#redesSociales i{
+    color: white;
+    min-height: 40px;
+    min-width: 40px;
+    padding: 5px;
+    text-align: center;
+    border-radius: 50%;
+}
+
+#redesSociales i:nth-child(1){
+  background: RGB(48,156,194);
     
 }
+#redesSociales i:nth-child(2){
+    background:RGB(75,174,62);
+      
+  }
+  #redesSociales i:nth-child(3){
+    background:RGB(45,75,127);
+      
+  }
+  #redesSociales i:nth-child(4){
+    background:RGB(61,97,166);
+      
+  }
+  #redesSociales i:nth-child(5){
+    background: RGB(17,90,131);
+      
+  }
+  #redesSociales i:nth-child(6){
+    background:RGB(230,42,40);
+      
+  }
 .logo img{
-
+    
     width: 100%;
     height: auto;
 }
 .logo{
     
-    position: absolute;
-    width: 10%;
-    height: 14%;
-    left: 3%;
-    top: -2%;
-    font-size-adjust:0.5em;}
+  
+    width: 100px;
+   
+    
+}
+.logo h3{
+    font-size:15px;
+    text-align: center;
+}
+    
+#tituloPrincipal{
+    justify-content: center;
+    height: 100%;
+    display: flex;
+    align-items: flex-start;
+    color:white;
+}
+#tituloPrincipal h1{
+    width: 100%;
+}
+#tituloPrincipal h2{
+    width: 100%;
+}
+#tituloPrincipal div{
+    min-width: 500px;
+    min-height: 350px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+
+}
+#botonDestinos{
+padding: 10px;
+border: solid yellow;
+background-color: yellow;
+text-decoration: none;
+color: black;
+width: 111px;
+    height: 44px;
+    text-align: center;
+}
