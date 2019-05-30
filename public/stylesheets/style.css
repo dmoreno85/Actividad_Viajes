@@ -1,21 +1,24 @@
-*{
+* {
     text-decoration: none;
 }
-html{
+
+html {
     height: 100%;
     justify-content: center;
     align-items: flex-start;
     display: flex;
     flex-direction: column;
 }
-body{
+
+body {
     height: 100%;
     width: 100%;
 }
-header{
-    
-    background-image:url("../images/nathan-anderson-316188-unsplash.jpg");
-    height:100%;
+
+header {
+
+    background-image: url("../images/nathan-anderson-316188-unsplash.jpg");
+    height: 100%;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -25,24 +28,28 @@ header{
     flex-direction: column;
 
 }
-#navbar{
+
+#navbar {
     width: 100%;
     justify-content: space-between;
     align-items: flex-start;
     display: flex;
     padding: 10px;
 }
-#navHeader{
-  color:white;
+
+#navHeader {
+    color: white;
     display: flex;
 
 }
-#navHeader>ul>li a{
-    color:white;
+
+#navHeader>ul>li a {
+    color: white;
     text-decoration: none;
 
 }
-#redesSociales i{
+
+#redesSociales i {
     color: white;
     min-height: 40px;
     min-width: 40px;
@@ -51,61 +58,72 @@ header{
     border-radius: 50%;
 }
 
-#redesSociales i:nth-child(1){
-  background: RGB(48,156,194);
-    
+#redesSociales i:nth-child(1) {
+    background: RGB(48, 156, 194);
+
 }
-#redesSociales i:nth-child(2){
-    background:RGB(75,174,62);
-      
-  }
-  #redesSociales i:nth-child(3){
-    background:RGB(45,75,127);
-      
-  }
-  #redesSociales i:nth-child(4){
-    background:RGB(61,97,166);
-      
-  }
-  #redesSociales i:nth-child(5){
-    background: RGB(17,90,131);
-      
-  }
-  #redesSociales i:nth-child(6){
-    background:RGB(230,42,40);
-      
-  }
-.logo img{
-    
+
+#redesSociales i:nth-child(2) {
+    background: RGB(75, 174, 62);
+
+}
+
+#redesSociales i:nth-child(3) {
+    background: RGB(45, 75, 127);
+
+}
+
+#redesSociales i:nth-child(4) {
+    background: RGB(61, 97, 166);
+
+}
+
+#redesSociales i:nth-child(5) {
+    background: RGB(17, 90, 131);
+
+}
+
+#redesSociales i:nth-child(6) {
+    background: RGB(230, 42, 40);
+
+}
+
+.logo img {
+
     width: 100%;
     height: auto;
 }
-.logo{
-    
-  
+
+.logo {
+
+
     width: 100px;
-   
-    
+
+
 }
-.logo h3{
-    font-size:15px;
+
+.logo h3 {
+    font-size: 15px;
     text-align: center;
 }
-    
-#tituloPrincipal{
+
+#tituloPrincipal {
     justify-content: center;
     height: 100%;
     display: flex;
     align-items: flex-start;
-    color:white;
+    color: white;
 }
-#tituloPrincipal h1{
+
+#tituloPrincipal h1 {
     width: 100%;
 }
-#tituloPrincipal h2{
+
+#tituloPrincipal h2 {
     width: 100%;
 }
-#tituloPrincipal div{
+
+#tituloPrincipal div {
     min-width: 500px;
     min-height: 350px;
     justify-content: center;
@@ -114,13 +132,103 @@ header{
     flex-direction: column;
 
 }
-#botonDestinos{
-padding: 10px;
-border: solid yellow;
-background-color: yellow;
-text-decoration: none;
-color: black;
-width: 111px;
+
+#botonDestinos {
+    padding: 10px;
+    border: solid yellow;
+    background-color: yellow;
+    text-decoration: none;
+    color: black;
+    width: 111px;
     height: 44px;
     text-align: center;
+    margin-top: 15px;
+}
+
+footer {
+    background: RGB(20, 25, 57);
+    color: RGB(255, 255, 253);
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+#footer1 {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height: 322px;
+    border-bottom: 1px solid black;
+    width: 100%;
+}
+
+#footer1>div {
+    margin: auto 50px;
+    padding: 50px;
+    height: 100%;
+}
+
+#footer1>div>p:nth-child(4) {
+    font-size: 10px;
+}
+
+#footer1>div>ul {
+    list-style: none;
+}
+
+
+#footer2 {
+    margin: 30px;
+
+}
+
+#footer2 p {
+    font-size: 10px;
+}
+
+#newsletter {
+    flex-direction: column;
+
+    display: flex;
+}
+
+#newsletter input {
+    color: black;
+}
+
+#img1 {
+    width: 100px;
+    height: 100px;
+    background-image: url("/public/images/new_york.JPG");
+}
+
+#img2 {
+    width: 100px;
+    height: 100px;
+    background-image: url("/public/images/tokyo.JPG");
+}
+
+#img3 {
+    width: 100px;
+    height: 100px;
+    background-image: url("/public/images/madrid.JPG");
+}
+
+#img4 {
+    width: 100px;
+    height: 100px;
+    background-image: url("/public/images/Egipto.jpg");
+}
+
+#img5 {
+    width: 100px;
+    height: 100px;
+    background-image: url("/public/images/beijing.JPG");
+}
+
+#img6 {
+    width: 100px;
+    height: 100px;
+    background-image: url("/public/images/buenos_aires.JPG")
 }
