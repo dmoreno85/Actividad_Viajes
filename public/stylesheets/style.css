@@ -102,10 +102,13 @@ header {
     text-align: center;
 }
 
+   
+
 #tituloPrincipal {
+    
     justify-content: center;
     height: 100vh;
-    display: flex;
+    display:flex;
     align-items: center;
     color: white;
     background-image: url(../images/nathan-anderson-316188-unsplash.jpg);
@@ -114,6 +117,14 @@ header {
     background-position: center;
     background-attachment: fixed;
 }
+
+
+
+@media only screen and (min-width: 600px) {
+    .carruselPrincipal {
+      display: none;
+    }
+  }
 
 #tituloPrincipal h1 {
     width: 100%;
@@ -285,6 +296,12 @@ footer {
     background-size: cover;
     background-image: url(../images/buenos_aires.JPG);
 }
+
+@media only screen and (min-width: 600px) {
+    .carruselImagenes {
+      display: none;
+    }
+  }
 
 #imgSection{
     background-image: url(../images/sectionquiensomostio.jpg);
