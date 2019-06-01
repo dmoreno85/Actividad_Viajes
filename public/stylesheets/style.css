@@ -3,7 +3,7 @@
 }
 
 html {
-    height: 100%;
+    
     justify-content: center;
     align-items: flex-start;
     display: flex;
@@ -16,17 +16,12 @@ body {
 }
 
 header {
-
-    background-image: url("../images/nathan-anderson-316188-unsplash.jpg");
-    height: 100%;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
+    position: absolute;
+    width: 100%;
     justify-content: center;
     align-items: center;
     display: flex;
     flex-direction: column;
-
 }
 
 #navbar {
@@ -109,10 +104,15 @@ header {
 
 #tituloPrincipal {
     justify-content: center;
-    height: 100%;
+    height: 100vh;
     display: flex;
-    align-items: flex-start;
+    align-items: center;
     color: white;
+    background-image: url(../images/nathan-anderson-316188-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
 }
 
 #tituloPrincipal h1 {
@@ -139,10 +139,12 @@ header {
     background-color: yellow;
     text-decoration: none;
     color: black;
-    width: 111px;
+    width: 115px;
     height: 44px;
     text-align: center;
-    margin-top: 15px;
+    margin-top: 16px;
+    font-style: italic;
+    font-weight: 600;
 }
 
 footer {
@@ -197,38 +199,174 @@ footer {
     color: black;
 }
 
-#img1 {
-    width: 100px;
-    height: 100px;
-    background-image: url("/public/images/new_york.JPG");
+#boxImg{
+
+   
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+    flex-wrap: wrap;
+    font-weight: 700;
+
+}
+#boxImg>div{
+    display: flex;
+    flex-direction: column;
+}
+.item{
+    
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+}
+.item span{
+    font-size: 1.2em;
+    
+
 }
 
-#img2 {
-    width: 100px;
-    height: 100px;
-    background-image: url("/public/images/tokyo.JPG");
+.img{
+    width: 300px;
+    height: 270px;
+    background-size: cover;
+    position: relative;
+    margin: 50px;
+    margin-bottom: 12px;
 }
 
-#img3 {
-    width: 100px;
-    height: 100px;
-    background-image: url("/public/images/madrid.JPG");
+.img  p:nth-child(1){
+    position: absolute;
+    color:white;
+    background-color: RGB(20,25,57);
+    left: 0;
+    right: 0;
+    top: 0;
+    padding: 10px;
+    font-size: 1.2em;
+}
+.img  p:nth-child(2){
+    padding: 1em;
+    position: absolute;
+    color: black;
+    background-color: RGB(251,239,0);
+    right: 0;
+    font-size: 1.2em;
 }
 
-#img4 {
-    width: 100px;
-    height: 100px;
-    background-image: url("/public/images/Egipto.jpg");
+.img1 {
+ 
+    background-size: cover;
+  
+    background-image: url(../images/new_york.JPG);
 }
 
-#img5 {
-    width: 100px;
-    height: 100px;
-    background-image: url("/public/images/beijing.JPG");
+.img2 {
+    background-size: cover;
+    background-image: url(../images/tokyo.JPG);
 }
 
-#img6 {
-    width: 100px;
-    height: 100px;
-    background-image: url("/public/images/buenos_aires.JPG")
+.img3 {
+    background-size: cover;
+    background-image: url(../images/madrid.JPG);
 }
+
+.img4 {
+    background-size: cover;
+    background-image: url(../images/Egipto.jpg);
+}
+
+.img5 {
+    background-size: cover;
+    background-image: url(../images/beijing.JPG);
+}
+
+.img6 {
+    background-size: cover;
+    background-image: url(../images/buenos_aires.JPG);
+}
+
+#imgSection{
+    background-image: url(../images/sectionquiensomostio.jpg);
+    justify-content: flex-start;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    padding: 30vh 5vw;
+   
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+#subrayado{
+    position: absolute;
+    content: '';
+    width: 228px;
+    height: 5px;
+    background: yellow;
+    top: 80px;
+    left: 20px;
+}
+#divSection{
+    position: relative;
+    color:rgb(20, 25, 57);
+    background-color: white;
+    max-width: 500px;
+    padding: 30px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    
+}
+#imgSection h2{
+    margin-bottom: 22px;
+    font-size: 2em;
+    width: 100%;
+}
+#divSection a {
+    background: #20243E;
+    padding: 19px;
+    color: yellow;
+    text-decoration: none;
+    font-size: 1.8em;
+    font-style: italic;
+  }
+  #mapForm{
+  
+       
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        height: 100vh;;;
+  }
+  .subrayado2{
+   
+    content: '';
+    width: 30px;
+    height: 2px;
+    background: blue;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  #formulario{
+    width: 75vh;
+    height: 90vh;
+    font-weight: 600;
+  }
+  #map{
+    width: 75vh;
+    height: 90vh;
+  }
+  .fontForm{
+    font-weight: 100 ;
+    font-size: 0.7em ;
+    font-style: italic ;
+  }
+  .fontForm2{
+    font-weight: 100 ;
+    font-size: 0.7em ;
+    margin-bottom: 28px;
+  }
