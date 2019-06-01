@@ -117,14 +117,15 @@ header {
     background-position: center;
     background-attachment: fixed;
 }
-
-
-
-@media only screen and (min-width: 600px) {
-    .carruselPrincipal {
-      display: none;
-    }
+@media  (max-width: 600px) {
+    #tituloPrincipal{
+      display:none
+      }
+  /* Aquí vas poniendo las demás clases y como se comporta en mobile*/
   }
+
+
+
 
 #tituloPrincipal h1 {
     width: 100%;
@@ -224,6 +225,13 @@ footer {
     display: flex;
     flex-direction: column;
 }
+@media  (max-width: 600px) {
+    #boxImg{
+      display:none
+      }
+  /* Aquí vas poniendo las demás clases y como se comporta en mobile*/
+  
+  }
 .item{
     
     justify-content: center;
